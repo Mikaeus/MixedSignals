@@ -2,10 +2,8 @@
 # Character definitions
 # -----------------------------------------------------------------------
 
-define red_char  = Character("First Character",  color="#FF0000")
-define blue_char = Character("Second Character", color="#0000FF")
-define green_char  = Character("Third Character",  color="#00FF00")
-
+define sha = Character("Shana",  color="#FF0000")
+define hai = Character("Hailey", color="#0000FF")
 
 # -----------------------------------------------------------------------
 # Game code
@@ -15,6 +13,8 @@ define green_char  = Character("Third Character",  color="#00FF00")
 label start:
 
     # Ren'py auto-reads from other files in the directory.
-    call chapter_one
+    call scene_one
+    call scene_two
+    call scene_three
 
     return

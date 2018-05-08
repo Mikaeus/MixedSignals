@@ -12,30 +12,6 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\bootstrap.py", line 306, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\main.py", line 415, in main
-    if renpy.parser.report_parse_errors():
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\parser.py", line 2664, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\error.py", line 185, in report_parse_errors
-    error_fn=error_fn,
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\game.py", line 285, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\error.py", line 43, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\ui.py", line 287, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\core.py", line 2635, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\core.py", line 3092, in interact_core
-    renpy.exports.reload_script()
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\exports.py", line 1578, in reload_script
-    renpy.game.call_in_new_context("_save_reload_game")
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\game.py", line 337, in call_in_new_context
-    return renpy.execution.run_context(False)
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\execution.py", line 846, in run_context
-    context.run()
   File "renpy/common/00keymap.rpy", line 411, in script
     python hide:
   File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\ast.py", line 862, in execute
@@ -59,4 +35,4 @@ TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3.3347
  
-Wed May 02 21:52:19 2018
+Tue May 08 06:57:51 2018

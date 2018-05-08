@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scene_one.rpy", line 10: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "Glancing up from my phone,{p=0.4}
+
+Ren'Py Version: Ren'Py 6.99.14.3.3347
+Tue May 08 06:57:29 2018

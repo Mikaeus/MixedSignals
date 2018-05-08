@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00keymap.rpy", line 411, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 411, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 421, in _execute_python_hide
+    renpy.take_screenshot((config.thumbnail_width, config.thumbnail_height))
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00keymap.rpy", line 411, in script
+    python hide:
+  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\ast.py", line 862, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\python.py", line 1888, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00keymap.rpy", line 411, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 421, in _execute_python_hide
+    renpy.take_screenshot((config.thumbnail_width, config.thumbnail_height))
+  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\exports.py", line 1530, in take_screenshot
+    renpy.game.interface.take_screenshot(scale, background=background)
+  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\core.py", line 2088, in take_screenshot
+    surf = renpy.display.scale.smoothscale(surf, scale)
+  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\scale.py", line 93, in real_smoothscale
+    dest = pgrender.surface_unscaled(size, src)
+  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\display\pgrender.py", line 116, in surface
+    surf = Surface((width + 4, height + 4), 0, sample)
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3.3347
+ 
+Tue May 08 06:57:51 2018

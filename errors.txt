@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 12: expected statement.
-    reassurance = ""
-                ^
+File "game/scene_one_shana.rpy", line 139: end of line expected.
+    sha "Sure!  " extend "Where do you want to go?"
+                  ^
 
 Ren'Py Version: Ren'Py 6.99.14.3.3347
-Wed May 09 07:24:39 2018
+Wed May 09 20:58:31 2018

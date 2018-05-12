@@ -9,7 +9,7 @@ define hai = Character("Hailey", color="#FF0000")
 # Variable definitions
 # -----------------------------------------------------------------------
 
-default reassurance = ""
+#default reassurance = ""
 
 # -----------------------------------------------------------------------
 # Game code
@@ -20,6 +20,9 @@ default reassurance = ""
 label start:
 
     call scene_one_hailey
+
+    "Cue POV switch -- scene one."
+
     call scene_one_shana
     
     call scene_two_hailey

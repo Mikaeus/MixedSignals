@@ -19,11 +19,11 @@ define hai = Character("Hailey", color="#FF0000")
 # Ren'py auto-reads from other files in the directory.
 label start:
 
-    call scene_one_hailey from _call_scene_one_hailey
+    call scene_one_hailey
 
     #"Cue POV switch -- scene one."
 
-    call scene_one_shana from _call_scene_one_shana
+    call scene_one_shana
 
     #call scene_two_hailey
     #call scene_two_shana

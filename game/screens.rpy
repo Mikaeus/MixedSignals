@@ -564,7 +564,7 @@ screen about():
 
 
 ## This is redefined in options.rpy to add text to the about screen.
-define gui.about = ""
+define gui.about = "Coding: Benny, Draz. Writing: Draz, Yareah. Art: Draz. Audio: Yareah"
 
 
 style about_label is gui_label
@@ -1509,8 +1509,3 @@ style slider_pref_vbox:
 style slider_pref_slider:
     variant "small"
     xsize 600
-
-
-
-
-

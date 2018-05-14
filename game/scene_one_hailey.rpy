@@ -4,6 +4,8 @@
 
 label scene_one_hailey:
 
+    play music "audio/dont have a cue s1 hailey.mp3"
+
     scene black
 
     sha "Hailey?"

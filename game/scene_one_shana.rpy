@@ -4,6 +4,8 @@
 
 label scene_one_shana:
 
+    play music "audio/dont have a cue s1 shana.mp3"
+
     scene dressing room two with fade:
     show hailey artist sheepish blush with dissolve
     "I looked at Hailey in disbelief."
@@ -224,6 +226,8 @@ label scene_one_shana_part_three:
             extend "I'm excited for it."
 
 label scene_one_shana_part_four:
+
+    play music "audio/dont have a cue s1 cafe.mp3"
 
     scene black with dissolve
 

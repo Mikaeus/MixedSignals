@@ -265,4 +265,4 @@ label scene_one_hailey_part_three:
     sha "I'd like that."
     hai "You know,{w=0.3} just the two of us."
     "I look at her suggestively but she doesn't seem like she's getting the hint."
-    hai "Like... a date."
+    hai "Like...{w=0.3} a date."

@@ -5,7 +5,7 @@ While running game code:
     call scene_one_shana
   File "renpy/common/00start.rpy", line 120, in script
     return
-Exception: Could not find return label (u'C:\\Users\\Benny D\\Desktop\\MixedSignals/game/scene_one_shana.rpy', 1525913329, 8).
+Exception: Could not find return label (u'/Users/alisonhuang/Renpy/MixedSignals/game/scene_one_shana.rpy', 1526284637, 158).
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -14,13 +14,13 @@ Full traceback:
     call scene_one_shana
   File "renpy/common/00start.rpy", line 120, in script
     return
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\ast.py", line 1448, in execute
+  File "/Users/alisonhuang/Downloads/Renpy/renpy/ast.py", line 1448, in execute
     next_node(renpy.game.context().lookup_return(pop=True))
-  File "C:\Users\Benny D\Desktop\renpy-6.99.14.3-sdk\renpy\execution.py", line 629, in lookup_return
+  File "/Users/alisonhuang/Downloads/Renpy/renpy/execution.py", line 629, in lookup_return
     raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
-Exception: Could not find return label (u'C:\\Users\\Benny D\\Desktop\\MixedSignals/game/scene_one_shana.rpy', 1525913329, 8).
+Exception: Could not find return label (u'/Users/alisonhuang/Renpy/MixedSignals/game/scene_one_shana.rpy', 1526284637, 158).
 
-Windows-8-6.2.9200
+Darwin-17.5.0-x86_64-i386-64bit
 Ren'Py 6.99.14.3.3347
 GameJam 1.0
-Wed May 09 20:51:34 2018
+Mon May 14 19:45:50 2018

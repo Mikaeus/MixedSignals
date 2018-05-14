@@ -2,8 +2,8 @@
 # Character definitions
 # -----------------------------------------------------------------------
 
-define sha = Character("Shana",  color="#00FF00")
-define hai = Character("Hailey", color="#FF0000")
+define sha = Character("Shana",  color="#e5b6b6")
+define hai = Character("Hailey", color="#d7f0c8")
 
 # -----------------------------------------------------------------------
 # Variable definitions
